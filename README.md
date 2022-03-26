@@ -1,6 +1,18 @@
 # Getting Started
 Build CI/CD for Simple SpringBoot WebAPI and Mysql with Docker
 
+## How to register self-hosted gitlabrunner
+```
+  docker-compose exec gitlab-runner \
+  gitlab-runner register \
+  --non-interactive \
+  --url "[gitlab-ce IP](https://stackoverflow.com/a/20686101)" \
+  --registration-token "[gitlab-runner token](https://devops.stackexchange.com/a/4617)" \
+  --executor docker \
+  --description "Dotnet 6 Web.API Runner" \
+  --docker-image "docker:stable"
+```
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
