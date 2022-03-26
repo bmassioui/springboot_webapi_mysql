@@ -14,7 +14,7 @@
 	<name>springboot_webapi_mysql</name>
 	<description>Spring Boot CRUD API</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
