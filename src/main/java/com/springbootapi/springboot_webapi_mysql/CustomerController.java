@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller // This means that this class is a Controller
-@RequestMapping(path = "/api/customers/") // This means URL's start with /api/customers/ (after Application path)
+@RequestMapping(path = "/api/customers") // This means URL's start with /api/customers/ (after Application path)
 public class CustomerController {
     @Autowired
 
