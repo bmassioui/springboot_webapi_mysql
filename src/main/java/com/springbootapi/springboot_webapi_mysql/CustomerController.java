@@ -1,4 +1,4 @@
-package com.springbootapi;
+package com.springbootapi.springboot_webapi_mysql;
 
 import com.springbootapi.springboot_webapi_mysql.Model.Customer;
 import com.springbootapi.springboot_webapi_mysql.Repositories.CustomerRepository;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller // This means that this class is a Controller
-@RequestMapping(path = "/api") // This means URL's start with /api (after Application path)
+@RequestMapping(path = "/api/customers/") // This means URL's start with /api/customers/ (after Application path)
 public class CustomerController {
     @Autowired
 
